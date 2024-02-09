@@ -1,3 +1,5 @@
+#emf - Overall you do a great job answering each question and annotating your code!
+
 # This file contains homework questions for the lecture on 
 # Control Structures and Functions.  Questions appear as comments 
 # in the file.  Place your answers as executable code immediately 
@@ -48,12 +50,11 @@ if(x != y) { # checks if x is not equal to y using !=
 # print "X is true" to screen. If false print "X is false" to screen.
 
 x <- TRUE
-if(x) { # checks if x is true
+if(x) { # checks if x is true 
   print("X is true")
 } else {
   print("X is false")
 }
-
 
 # QUESTION 5: Write a "for" loop that iterates through the 
 # values 1 to 10 and prints the iteration number to screen 
