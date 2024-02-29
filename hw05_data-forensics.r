@@ -1,4 +1,5 @@
-# Joshua
+# emf - good job! you can find comments below by searching for "emf"
+
 # Directions:
 
 # This file contains homework questions for the lecture on data forensics
@@ -91,7 +92,10 @@ apply(cl, 2, count_na) # applies count_na to all columns in cl
 #    column to an appropriate data type, then use the `range` function.
 #    [code completion + comprehension]
 
+#emf - date_posted is still a character vector here - how would you convert to a date?
 range(cl$date_posted, na.rm = TRUE) # returns earliest and latest date posted
+
+#emf - given the output, what time period does this data cover?
 
 # 8. Compute the mean price for each pets category. Based on the means, are
 #    apartments that allow pets typically more expensive? Explain, being
@@ -141,6 +145,8 @@ name[order(age)] # sorts the names based on their ages
 # another, then you can use one to order by subsetting one vector by using the 
 # index order of the other vector. For example, I was able to sort the names
 # based on their ages by using name[order(age)].
+
+# emf - good!
 
 # 10. Use the `order` function to sort the rows of the Craigslist data set
 #     based on the `sqft` column. [code completion + comprehension]
