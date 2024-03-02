@@ -82,6 +82,8 @@ count_na(cl$pets) # call count_na on the pets column
 #       [code completion + comprehension]
 
 apply(cl, 2, count_na) # applies count_na to all columns in cl
+# emf - needed to include result in your answer
+
 #    d. Which columns have 0 missing values? [comprehension]
 #
 # The title, text, date_posted, deleted, laundry, parking, and craigslist 
