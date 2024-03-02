@@ -1,3 +1,5 @@
+# emf - excellent work! Great answers and annotations.
+
 # Directions:
 
 # This file contains homework questions for the lecture on working with files
@@ -28,6 +30,7 @@
 #       c. `~/Documents/data.csv`
 #           data.csv is a csv file in the documents directory, which is in the
 #           user's home directory. '~/' represents the user's home directory.
+            # emf - could explain a bit more what a .csv file is
 
 # 2. Which command line utility can be used to determine the type of a file? 
 # [code completion]
@@ -98,6 +101,7 @@ for(i in 2:ncol(dogs)) { # for all columns of dogs, except the first column
   }
 }
 print(paste("Column ", maxNA, " has the most missing values.")) # print maxNA
+# emf - good - would also be helpful to know the name of col 17
 
 # 7. Use indexing to get the subset of the dogs data which only contains large
 #    dogs that are good with kids (the category `high` in the `kids` column
