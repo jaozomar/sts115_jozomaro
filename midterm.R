@@ -188,7 +188,7 @@ library("fortunes")
 #
 #       An advantage of CSV files is that they are easy to read and can be used
 #       on different programs. A disadvantage is that CSV files can only hold
-#       simple data and are unahble to hold complex data.
+#       simple data and are unable to hold complex data.
 
 
 
