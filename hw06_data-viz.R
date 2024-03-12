@@ -1,3 +1,5 @@
+# emf - good job! you can find comments below by searching for "emf"
+
 # Directions:
 
 # This file contains homework questions for the lecture on data visualization.
@@ -73,6 +75,8 @@ ggplot(dogs) + aes(x = group) + geom_bar(mapping = aes(fill = size), position = 
 # actual count of each dog size per group, but rather the distribution of the
 # sizes for each group's total count
 
+# emf - good!
+
 # 3.
 #   a. Which geometry function makes a histogram? Use the ggplot2 website or
 #      cheat sheet to find out.
@@ -100,6 +104,7 @@ ggplot(dogs) + aes(x=longevity) + geom_histogram()
 ggplot(dogs) + aes(x=longevity) + geom_histogram(bins = 50)
 # The bins argument is changing the number of bars in the histogram. When
 # bins = integer x, the plot will have x bars.
+# emf - good but need to elaborate
 
 # 4.
 #   a. Modify your plot from Question 1 so that the shape of the points is
@@ -183,6 +188,8 @@ ggplot(dogs) + aes(x = height, y = weight, shape = group) + geom_point(color = '
 
 # https://twitter.com/advertisedtwit/status/1473354400294965258
 
+# emf - unfortunately, this links to a post that has been deleted but I will take you word for 6b-d
+
 #   b. Describe in a few sentences the "data story" you think that this visualization 
 #       is trying to tell.
 
@@ -260,5 +267,6 @@ ggplot(dogs) +
   labs(title = "Dog Groups' Lifetime Cost by their Longevity", x = "Longevity (years)", y = "Lifetime Cost ($)", shape = "Group",color = "Group") +
   scale_shape_manual(values = c(16,17,15,3,7,8,18)) +
   theme_light()
-  
+
+# emf - great!
 
