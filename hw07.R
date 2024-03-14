@@ -1,4 +1,6 @@
-# code copied from the course reader. Only really had to do one change
+# emf - hi joshua - I see that this was submitted a bit late - no points off this time. but make sure that future assignments are on time!
+
+# code copied from the course reader. Only really had to do one change # emf - right!
 # https://ucdavisdatalab.github.io/adventures_in_data_science/getting-data-from-the-web.html#web-scraping
 
 library("xml2")
@@ -31,7 +33,8 @@ article_urls = list()
 i = 1
 
 # On the last page, the next URL will be `NA`.
-while (!is.na(url)) {
+# while (!is.na(url)) {
+while (!is.na(url)&& i<=5) { # emf - for testing the loop - I don't want to scrape 200 pages!
   # Download and parse the page.
   page = read_html(url)
   result = parse_article_links(page)
