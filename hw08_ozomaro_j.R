@@ -1,3 +1,5 @@
+# emf - good job! see comments below
+
 # Directions:
 
 # This file contains homework questions for the lecture on data visualization.
@@ -65,7 +67,7 @@ y <- "She said \"Hi!\""
 
 myVector <- c("He", "Wanted", "to", "say", "hello", "but", "was", "afraid")
 str_detect(myVector, "hello") # detects occurences of "hello" in myVector
-
+# emf - good! is there any way to use stringr to split the sentence into words rather than doing it manually?
 
 
 # Section "15.8 Corpus Analytics" of the reader contains a tutorial on performing
@@ -101,3 +103,4 @@ findAssocs(dtm, "boat", .85)
 writing <- findAssocs(dtm, "writing", .85)
 writing[[1]][1:15] # only show the top 15 results from findAssocs
 
+# emf - section 15.8 of the course reader also includes the subsections 15.8.1 - 15.8.3
