@@ -73,6 +73,8 @@ menu <- str_split(menu, " \\.+ ") # split menu by the row of periods separated b
 # wanted to extract all names that come after a line break, but was unable to figure out how to
 burrito = data.frame(price = str_extract_all(menu, "[0-9].[0-9][0-9]")) # extract all prices for the price
 
+# emf - if you are working with listed data, how might this change your strategy?
+
 ```
 
 QUESTION 3 (20 Points): Use the Cat Facts API documentation at https://alexwohlbruck.github.io/cat-facts/docs/ to make a request to the Cat Facts "facts" endpoint and retrieve 5 random facts about cats. Note that you must properly construct the URL for your request by adding the "endpoint" for your specific request as documented on the site to the "base URL for all endpoints" which is also documented on the site.  All of the information that you need to construct a well-formed URL for your request appears somewhere in the documentation, and you should be able to do using your knowledge of how URLs are constructed.
@@ -100,6 +102,8 @@ page = read_html(url)
 
 div = xml_find_all(page, "//tr")
 year = xml_find_all(div, ".//td")
+
+# emf - would be good to leave pseudo code in cases where you did not finish so that we can understand your logic and where you hope to go
 ```
 
 QUESTION 5 (20 Points): The file `nobel_laureates.rds` (included in the zip file you downloaded that contains this exam file) contains a data.frame with pre-scraped information about the female Nobel Laureates you scraped above in question 4. Each row corresponds to one laureate.
